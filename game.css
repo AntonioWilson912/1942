@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Silkscreen', cursive;
+}
+
+#map {
+    background: url("./assets/ocean.jpg");
+    width: 1024px;
+    height: 648px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 10px;
+    overflow: hidden;
+}
+
+#map .jet {
+    width: 70px;
+    height: 140px;
+}
+
+.enemy1 {
+    background: url("./assets/1942.gif");
+    background-position: -30px -10px;
+    width:28px;
+    height:28px;
+    position: absolute;
+}
+
+.enemy2 {
+    background: url("./assets/1942.gif");
+    background-position: -124px -15px;
+    width: 24px;
+    height: 12px;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+
+#player {
+    background: url("./assets/1942.gif");
+    background-position: -85px -180px;
+    width: 28px;
+    height: 28px;
+    position: absolute;
+}
+
+.bullet{
+    background: url("./assets/1942.gif");
+    background-position: -185px -400px;
+    width: 18px;
+    height: 18px;
+    position: absolute;
+}
+
+.explosion-0 {
+    background: url("./assets/1942.gif");
+    background-position: -41px -41px;
+    width: 18px;
+    height: 18px;
+    position: absolute;
+}
+
+.explosion-1 {
+    background: url("./assets/1942.gif");
+    background-position: -67px -41px;
+    width: 18px;
+    height: 18px;
+    position: absolute;
+}
+
+.explosion-2 {
+    background: url("./assets/1942.gif");
+    background-position: -88px -41px;
+    width: 18px;
+    height: 18px;
+    position: absolute;
+}
+
+.explosion-3 {
+    background: url("./assets/1942.gif");
+    background-position: -114px -33px;
+    width: 28px;
+    height: 28px;
+    position: absolute;
+}
+
+.explosion-4 {
+    background: url("./assets/1942.gif");
+    background-position: -146px -33px;
+    width: 28px;
+    height: 28px;
+    position: absolute;
+}
+
+#score {
+    float: right;
+    color: white;
+    font-size: 3rem;
+}
